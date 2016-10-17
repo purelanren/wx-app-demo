@@ -1,0 +1,13 @@
+<template name="banner">
+  <swiper
+    indicator-dots
+    autoplay
+    interval="3000"
+    duration="600">
+    <swiper-item wx:for="{{banners}}">
+      <image
+        src="{{item}}"
+        class="slide-image"/>
+    </swiper-item>
+  </swiper>
+</template>
