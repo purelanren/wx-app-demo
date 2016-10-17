@@ -8,8 +8,8 @@
 
 ### 分支介绍
 
-#### [demo/wx](http://git.eju-inc.com/reluxy/wx-app/tree/demo/wx)
+#### [demo/wx](https://github.com/purelanren/wx-app-demo/tree/demo/wx)
 微信官方DEMO
 
-#### [demo/jupai](http://git.eju-inc.com/reluxy/wx-app/tree/demo/jupai)
+#### [demo/jupai](https://github.com/purelanren/wx-app-demo/tree/demo/jupai)
 钜派在线首页DEMO
