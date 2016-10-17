@@ -1,0 +1,38 @@
+<template name="item">
+  <view
+    wx:for="{{list}}"
+    class="jupai-item">
+    <view class="header">
+      <text
+        wx:if="{{item.hot}}"
+        class="icon">紧张</text>
+      <text class="title">{{item.title}}</text>
+      <text class="type">{{item.type}}</text>
+    </view>
+    <view class="content">
+      <view class="left">
+        <view>{{item.incomePercent}}</view>
+        <text>预期收益率</text>
+      </view>
+      <view class="right">
+        <view>
+          <text class="dt">起投金额</text>
+          <text class="dd">{{item.minAmount}}</text>
+        </view>
+        <view>
+          <text class="dt">投资期限</text>
+          <text class="dd">{{item.term}}</text>
+        </view>
+        <view>
+          <text class="dt">佣金比例</text>
+          <text class="dd">{{item.commisionPercent}}</text>
+        </view>
+      </view>
+    </view>
+    <progress
+      percent="{{item.progress}}"
+      color="#f05f20"
+      active
+      show-info />
+  </view>
+</template>
