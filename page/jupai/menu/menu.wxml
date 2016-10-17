@@ -1,8 +1,0 @@
-<template name="menu">
-  <view class="jupai-menu">
-    <view wx:for="{{menus}}">
-      <image src="{{item.src}}" />
-      <text>{{item.text}}</text>
-    </view>
-  </view>
-</template>
